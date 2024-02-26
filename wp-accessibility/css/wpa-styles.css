@@ -1,0 +1,322 @@
+/* Admin styles for WP Accessibility */
+.wpa-settings-wrapper {
+	display: grid;
+	grid-template-columns: 70% 1fr;
+}
+
+.wpa-settings-wrapper .button-secondary .dashicons {
+	vertical-align: text-bottom;
+}
+
+.wpa-settings-wrapper .inside h3 {
+	font-size: 1.1em;
+	margin: 0;
+}
+
+.wpa-checkboxes li {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: .5rem;
+	align-items: center;
+}
+
+.wpa-checkboxes li input {
+	margin-top: 0;
+}
+
+.notice .views {
+	display: grid;
+	grid-template-columns: repeat( 2, minmax(0,1fr) );
+	column-gap: 20px;
+	row-gap: 20px;
+	align-items: start;
+	margin-bottom: 1em;
+}
+
+.notice .views p {
+	margin: 0;
+	padding: 8px;
+	border: 3px solid;
+	text-align: center;
+	min-height: 40px;
+}
+
+.notice .views .large {
+	font-size: 25px;
+}
+
+.notice .views .small {
+	font-size: 18px;
+}
+
+#wpa_settings_page .checkboxes {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 20px;
+	margin: 1em 0;
+}
+
+#wpa_settings_page .postbox, #wpa-sidebar .postbox {
+	margin: 0 10px 10px 0;
+}
+
+#wpa_settings_page li {
+	margin-bottom: 12px;
+}
+
+@media screen and (max-width: 728px) {
+	.wpa-settings-wrapper {
+		grid-template-columns: auto;
+	}
+	#wpa_settings_page .postbox {
+		margin: 0 0 10px 0;
+	}
+}
+
+
+#wpa_settings_page .meta-box-sortables {
+	min-height: 0;
+}
+
+#wpa_settings_page legend {
+	font-weight: 700;
+}
+
+#wpa_settings_page label span {
+	background: #0000000a;
+	padding: 2px;
+	margin-left: .5em;
+}
+
+#contrast-tester {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 20px;
+}
+
+.promotion h2 {
+	text-align: left;
+}
+
+.wpa-support-me h2 {
+	color: #fff;
+}
+
+.promotion {
+	font-weight: 600;
+	text-align: center;
+}
+
+.promotion img {
+	max-width: 130px;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+}
+
+.postbox.promotion p.coupon {
+	padding: 1em;
+	border: 2px dashed #ccc;
+	text-align: center;
+}
+
+.promotion .coupon code {
+	font-size: 1em;
+}
+
+.wpa-support-me img {
+	max-width: 120px;
+}
+
+.wpa-support-me {
+	background: #007eb3;
+	text-shadow: 1px 1px rgb( 35, 60, 127 );
+}
+
+.wpa-flex {
+	display: flex;
+	align-items: center;
+}
+
+#wpa-sidebar .postbox .wpa-affiliate-notice {
+	font-size: 1rem;
+	padding: .5rem;
+	background: #0000000c;
+	font-weight: 400;
+	padding: .5em;
+	margin: 0 -12px -23px !important;
+}
+
+.promotion p {
+	font-size: 1.6em;
+	margin: 0 0 1em;
+	padding: 1em;
+}
+
+.promotion p.small {
+	font-size: 1.3em;
+	font-weight: 400;
+	text-align: left;
+}
+
+.postbox.promotion p {
+	padding: 0 1em;
+}
+
+.wpa-support-me p, .wpa-support-me a {
+	color: #fff;
+}
+
+.wpa-support-me a:hover, .wpa-support-me a:focus {
+	text-decoration: none;
+	background: #fff;
+	color: #007eb3;
+	text-shadow: none;
+}
+
+#wpa_settings_page ul ul {
+	margin: 1em 2em;
+}
+
+#wpa_settings_page .hndle, .settings_page_wp-accessibility-wp-accessibility .hndle {
+	cursor: auto !important;
+}
+#wpa_stats .wpa-header,
+#wpa_dashboard_widget_stats div.wpa-header {
+	display: grid;
+	grid-template-columns: clamp(160px, calc(2vw + 140px), 200px) auto;
+	align-items: start;
+	column-gap: 10px;
+	padding: 4px 12px;
+}
+
+#wpa_stats .wpa-header p,
+#wpa_stats .wpa-header h3,
+#wpa_dashboard_widget_stats .wpa-header p,
+#wpa_dashboard_widget_stats .wpa-header h3 {
+	margin: 0;
+	padding: 0;
+}
+
+.wpad-small-promotion,
+#wpa_stats .activity-block > ul > li,
+#wpa_dashboard_widget_stats .activity-block > ul > li {
+	margin: 8px -12px 0 -12px;
+}
+
+#wpa_stats .inside,
+#wpa_dashboard_widget_stats .inside {
+	padding-bottom: 0;
+}
+
+#wpa_stats .inside p:last-of-type,
+#wpa_dashboard_widget_stats .inside p:last-of-type {
+	margin-bottom: 0;
+	padding-bottom: 1rem;
+}
+
+.wpad-small-promotion {
+	background: #dbf6ff;
+	color: #233c7f;
+	margin-top: 0;
+	border-top: 4px solid #233c7f;
+	padding: 12px 0;
+}
+
+.wpad-small-promotion .wpa-affiliate a {
+	font-size: 1rem;
+	color: #233c7f;
+	border: 2px solid #233c7f;
+	padding: 4px;
+	border-radius:3px;
+	background: rgba(255,255,255,.44);
+}
+
+.wpa-stats-heading {
+	display: grid;
+	grid-template-columns: auto auto;
+	align-items: start;
+	column-gap: 10px;
+}
+
+.wpa-flex,
+span.wpa-browser {
+	display: flex;
+	align-items: center;
+	column-gap: 6px;
+}
+
+.wpa-flex {
+	justify-content: center;
+}
+
+#dashboard-widgets .wpa-stats-heading h3 {
+	margin-bottom: 0;
+}
+
+#wpa_dashboard_widget_stats .activity-block {
+	margin-bottom: 0;
+}
+
+.wpa-stats-heading + ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.wpa-stats-heading a {
+	justify-self: end;
+}
+
+.wpad-small-promotion .wpa-affiliate a:hover,
+.wpad-small-promotion .wpa-affiliate a:focus {
+	background: #233c7f;
+	color: #fff;
+}
+
+.wpad-small-promotion .wpa-affiliate-notice,
+.wpad-small-promotion .wpa-affiliate {
+	text-align: center;
+}
+
+#wpa_dashboard_widget_stats .wpad-small-promotion h3 {
+	font-weight: 600;
+	color: #233c7f;
+	font-size: 1rem;
+}
+
+.wpad-small-promotion > * {
+	padding: 0px 12px !important;
+}
+
+.wpad-small-promotion > *:first {
+	padding-top: 12px;
+
+}
+
+.wpa-settings-wrapper .wpa-sidebar ul,
+#wpa_stats ul.stats,
+#wpa_dashboard_widget_stats ul.stats {
+	list-style-type: disc;
+	padding: .5rem 0 .5rem 1.5rem;
+}
+
+#wpa_stats .activity-block > ul > li:nth-child(2n+1),
+#wpa_dashboard_widget_stats .activity-block > ul > li:nth-child(2n+1) {
+	background-color: #f6f7f7;
+}
+
+#wpa-stats-typediv {
+	display: none;
+}
+
+.post-type-wpa-stats #post-body-content {
+	display: none;
+}
+
+.post-type-wpa-stats #post-body .activity-block {
+	padding-top: 0;
+}
+
+.post-type-wpa-stats #post-body .activity-block > ul {
+	margin-top: 0;
+}

@@ -1,0 +1,14 @@
+{
+	"name": "activecampaign-form/activecampaign-form-block",
+	"title": "AC Forms",
+	"category": "embed",
+	"icon": "ac-logo",
+	"description": "Allows ActiveCampaign forms to be embedded via the block editor",
+	"textdomain": "activecampaign-form",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
